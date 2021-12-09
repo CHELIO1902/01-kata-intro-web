@@ -45,9 +45,17 @@
 }
 
 .hero__photo {
-    background-color: darkgreen;
     width: 40%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__photo img {
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .hero__text {
