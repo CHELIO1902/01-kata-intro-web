@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.bandera {
+    background-color: darkblue;
+    height: 30%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.columna-sup-izq {
+    background-color: darkred;
+    height: 40%;
+    width: 30%;
+    border-right: 0.25em solid white;
+    border-bottom: 0.25em solid white;
+}
+
+.columna-sup-der {
+    background-color: darkred;
+    height: 40%;
+    width: 60%;
+    border-left: 0.25em solid white;
+    border-bottom: 0.25em solid white;
+}
+
+.columna-inf-izq {
+    background-color: darkred;
+    height: 40%;
+    width: 30%;
+    border-top: 0.25em solid white;
+    border-right: 0.25em solid white;
+}
+
+.columna-inf-der {
+    background-color: darkred;
+    height: 40%;
+    width: 60%;
+    border-left: 0.25em solid white;
+    border-top: 0.25em solid white;
+}
